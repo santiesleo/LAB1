@@ -24,6 +24,18 @@ public class Main {
             System.out.println("Index: " + ejercicio4.findIndex(array4, 0, 19));
         }
 
+        //Ejercicio 5
+        Ejercicio5 ejercicio5 = new Ejercicio5();
+        int[] numeros = new int[]{0, 0};
+        numeros =  ejercicio5.divRestasSucesivas(56, 15, 0, numeros);
+        System.out.println("El resto es: " + numeros[0] + " y el cociente es: " + numeros[1]);
+
+        //Ejercicio 6
+        Ejercicio6 ejercicio6 = new Ejercicio6();
+        int n = 2366;
+        int m = 273;
+        System.out.println("El mcd de " + n + " y " + m + " es: " + ejercicio6.mcd(n, m));
+
     }
 
     public static int sumArray(int [] array, int n){
